@@ -84,6 +84,7 @@ int main ( )
             cout << endl; 
         }
     }while ( choose != 3 ) ;
+
     SaveData(luong_mua, year, FILE_NAME ) ; 
     // ShowData(FILE_NAME, year.size() );
     return 0 ; 
